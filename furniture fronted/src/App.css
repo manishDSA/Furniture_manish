@@ -1,0 +1,21 @@
+.testimonial-slider .item {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .testimonial-slider .item:not(.active) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .testimonial-slider .item.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #testimonial-nav .prev,
+  #testimonial-nav .next {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
